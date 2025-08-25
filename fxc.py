@@ -30,12 +30,12 @@ elif a==2:
     lis=[a1,a2]
     if a1["hora"]+a1["duracion"]>=18:
         lis.remove(a1)
-        print("Error con la duracion y hora agendada , porfavor sea cooerente ")
+        print("Error reserva 1 con la duracion y hora agendada , porfavor sea cooerente ")
     if a1["hora"] <=8 or a1["hora"] >=18:
         print("Error solicitud 1,en  la hora solicida no estamos en servicio ")
     if a2["hora"]+a2["duracion"]>=18:
         lis.remove(a2)
-        print("Error con la duracion y hora agendada , porfavor sea cooerente ")
+        print("Error reserva 2 con la duracion y hora agendada , porfavor sea cooerente ")
     if a2["hora"] <=8 or a2["hora"] >=18:
         print("Error solicitud 2,en  la hora solicida no estamos en servicio ")
     print(f"resumen de las reservaciones {lis}")
@@ -105,25 +105,25 @@ elif  a ==4:
     lis=[a1,a2,a3,a4]
     if a1["hora"]+a1["duracion"]>=18:
         lis.remove(a1)
-        print("Error con la duracion y hora agendada , porfavor sea cooerente ")
+        print("Error reserva 1 con la duracion y hora agendada , porfavor sea cooerente ")
     if a1["hora"] <=8 or a1["hora"] >=18:
         print("Error solicitud 1,en  la hora solicida no estamos en servicio ")
 
     if a2["hora"]+a2["duracion"]>=18:
         lis.remove(a2)
-        print("Error con la duracion y hora agendada , porfavor sea cooerente ")
+        print("Error reserva 2 con la duracion y hora agendada , porfavor sea cooerente ")
     if a2["hora"] <=8 or a2["hora"] >=18:
         print("Error solicitud 2,en  la hora solicida no estamos en servicio ")
 
     if a3["hora"]+a3["duracion"]>=18:
         lis.remove(a3)
-        print("Error con la duracion y hora agendada , porfavor sea cooerente ")
+        print("Error reserva 3 con la duracion y hora agendada , porfavor sea cooerente ")
     if a3["hora"] <=8 or a3["hora"] >=18:
         print("Error solicitud 3,en  la hora solicida no estamos en servicio ")
 
     if a4["hora"]+a4["duracion"]>=18:
         lis.remove(a4)
-        print("Error con la duracion y hora agendada , porfavor sea cooerente ")
+        print("Error reserva 4  con la duracion y hora agendada , porfavor sea cooerente ")
     if a4["hora"] <=8 or a4["hora"] >=18:
         print("Error solicitud 4,en  la hora solicida no estamos en servicio ")
     print(f"resumen de las reservaciones {lis}")
@@ -161,25 +161,25 @@ elif a ==5:
     lis=[a1,a2,a3,a4,a5]
     if a1["hora"]+a1["duracion"]>=18:
         lis.remove(a1)
-        print("Error con la duracion y hora agendada , porfavor sea cooerente ")
+        print("Error reserva 1 con la duracion y hora agendada , porfavor sea cooerente ")
     if a1["hora"] <=8 or a1["hora"] >=18:
         print("Error solicitud 1,en  la hora solicida no estamos en servicio ")
 
     if a2["hora"]+a2["duracion"]>=18:
         lis.remove(a2)
-        print("Error con la duracion y hora agendada , porfavor sea cooerente ")
+        print("Error reserva 2 con la duracion y hora agendada , porfavor sea cooerente ")
     if a2["hora"] <=8 or a2["hora"] >=18:
         print("Error solicitud 2,en  la hora solicida no estamos en servicio ")
 
     if a3["hora"]+a3["duracion"]>=18:
         lis.remove(a3)
-        print("Error con la duracion y hora agendada , porfavor sea cooerente ")
+        print("Error reserva 3 con la duracion y hora agendada , porfavor sea cooerente ")
     if a3["hora"] <=8 or a3["hora"] >=18:
         print("Error solicitud 3,en  la hora solicida no estamos en servicio ")
 
     if a4["hora"]+a4["duracion"]>=18:
         lis.remove(a4)
-        print("Error con la duracion y hora agendada , porfavor sea cooerente ")
+        print("Error reserva 4 con la duracion y hora agendada , porfavor sea cooerente ")
     if a4["hora"] <=8 or a4["hora"] >=18:
         print("Error solicitud 4,en  la hora solicida no estamos en servicio ")
 
